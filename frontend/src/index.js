@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Switch, Redirect, Route } from 'react-router';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { Switch, Route } from 'react-router';
+import { BrowserRouter } from 'react-router-dom';
 
-import Login from './Login';
-import Register from './Register';
-import Dashboard from './Dashboard';
-import './Login.css';
+import Login from './components/Login';
+import Register from './components/Register';
+import Dashboard from './components/Dashboard';
+import './styles/App.css';
 
 ReactDOM.render(
     <BrowserRouter>
