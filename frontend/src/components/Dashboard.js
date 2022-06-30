@@ -125,8 +125,7 @@ export default class Dashboard extends Component {
         'content-type': 'application/json',
       },
     }).then(res => {
-      console.log(res?.data)
-      this.setState({ tasks: res?.data })
+      // this.setState({ tasks: res?.data })
     })
   }
   componentDidMount = () => {
